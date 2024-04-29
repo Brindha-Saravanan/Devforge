@@ -12,7 +12,7 @@ const Signup = () => {
     const [email, setEmail] = useState('');
     const handleSubmit = (e) => {
         const user = { username, password};
-        fetch('https://devforgebackend-3.onrender.com/insertLogin', {
+        fetch('https://devforgebackend-3.onrender.com/insertlogin', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(user)
