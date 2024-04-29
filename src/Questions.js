@@ -13,7 +13,7 @@ function Questions() {
     const username = location.state ? location.state.username : null;
     const fetchNextQuestion = async () => {
         try {
-            const response = await fetch('http://localhost:8000/fetchques', {
+            const response = await fetch('https://devforgebackend-3.onrender.com/fetchques', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
