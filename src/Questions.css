@@ -1,0 +1,49 @@
+/* .card{
+    width: 800px;
+    height:300px;
+    background-color: #F6F3E7;
+    border-radius: 50px
+} */
+.car{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.end{
+    margin-left: 50px;
+    align-items:center ;
+    margin-top: 200px;
+    text-decoration: none;
+}
+body{
+    background-image: url(./img/firstbg.jpeg);
+}
+.react{
+    font-size: 100px;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+.finish{
+    margin: 50px;
+    width: 100px;
+    height: 60px;
+    background-color:  rgb(176, 239, 124);
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+}
+.start{
+    width: 400px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: rgb(176, 239, 124);
+    margin-left: 500px;
+    font-size: 30px
+}
+.next{
+    margin-left: 85%;
+    width: 100px;
+    height:50px;
+    background-color: rgb(176, 239, 124);
+    border-radius: 20px;
+    border-style: dashed;
+}

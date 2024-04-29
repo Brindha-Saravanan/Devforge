@@ -1,0 +1,28 @@
+.top{
+  display: flex;
+  margin-top: 5px;
+  margin-left: 1200px;
+}
+
+.topics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    
+  }
+  .topics a   {
+    margin: 50px;
+    padding: 50px 60px;
+    text-decoration: none;
+    color: #73f7c5;
+    border: 2px solid #2c4e5d;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .topics a:hover {
+    background-color: #1fc1a8;
+    color: #fefafa;
+  }
+  

@@ -1,0 +1,19 @@
+.NavBar{
+    width: 1500px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgb(15, 130, 114);
+    border-style: solid;
+    border-width: 0.5px;
+}
+p{
+    display: flex;
+    color:rgb(11, 225, 196);
+}
+body{
+    margin-top: 0px;
+}
+.home{
+    margin-left:1400px;
+    font-size: 20px;;
+}

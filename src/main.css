@@ -1,0 +1,106 @@
+/* App.css */
+body {
+    background-image: url('./img/firstbg.jpeg');
+    background-attachment: fixed;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 500px;
+}
+
+.innerContainer {
+    margin: 50px;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+
+
+.app {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: rgb(31, 18, 61);
+    color: white;
+}
+
+.outputArea {
+    width: 650px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #ccc;
+}
+
+.left-container {
+    width: 50%;
+    height: auto;
+}
+
+.right-container {
+    width: 50%;
+
+}
+
+.editor {
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    margin-left: 500px;
+    width: 120px;
+    height: 30px;
+}
+
+.editor textarea {
+    width: 650px;
+    height: 200px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: #d1b6e7;
+
+}
+
+.output {
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+    width: 650px;
+}
+
+.buttons {
+    gap: 10px;
+    width: 100px;
+    border-radius: 10px;
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+.button {
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+.buttons select {
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.buttons select {
+    background-color: cadetblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
