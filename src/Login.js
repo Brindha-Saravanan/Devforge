@@ -16,7 +16,7 @@ const Login = () => {
         e.preventDefault(); // Prevent default form submission behavior
     
         const user = { username: name, password: password }; // Correctly construct the user object
-        fetch('http://localhost:8000/login', {
+        fetch('https://devforgebackend-3.onrender.com/login', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(user) // Send the user object directly
