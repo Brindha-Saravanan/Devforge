@@ -20,7 +20,7 @@ const Signup = () => {
             console.log("Login stored");
         })
         const details = { username, email}; 
-        fetch('http://localhost:8000/insertDetails', {
+        fetch('https://devforgebackend-3.onrender.com/insertDetails', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(details)
